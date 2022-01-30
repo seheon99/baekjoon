@@ -1,14 +1,13 @@
-#include <iostream>
-#include <iomanip>
+#include <stdio.h>
 
-int main(void) {
-  int number;
+int N;
+double P;
 
-  std::cin >> number;
-  for (int i = 0; i < number; i++) {
-    double price;
-
-    std::cin >> price;
-    std::cout << std::fixed << std::setprecision(2) << "$" << price * 0.8 << std::endl;
-  }
+int main() {
+    scanf("%d", &N);
+    while(N--) {
+        scanf("%lf", &P);
+        printf("$%.2lf\n", P * 0.8);
+    }
+    return 0;
 }
