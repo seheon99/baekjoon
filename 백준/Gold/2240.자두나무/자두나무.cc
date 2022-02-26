@@ -20,21 +20,15 @@ int max_cherry_iter(int current_second, int move_count, int current_position)
 	int& cache_ref = cache[current_second][move_count][current_position];
 	cached[current_second][move_count][current_position] = true;
 
-	cache_ref = max_cherry_iter(current_second + 1, move_count, current_position);
-	if (cherry_timetable[current_second] == current_position)
-	{
-		cache_ref += 1;
-	}
+	cache_ref = max_cherry_iter(current_second + 1, move_count, current_position) \
+							+ (cherry_timetable[current_second] == current_position);
 
 	if (move_count < max_move_count)
 	{
 		int moved_position = (current_position == 1 ? 2 : 1);
-		int cherry_moved = max_cherry_iter(current_second + 1, move_count + 1, moved_position);
+		int cherry_moved = max_cherry_iter(current_second + 1, move_count + 1, moved_position) \
+												+ (cherry_timetable[current_second] == moved_position);
 
-		if (cherry_timetable[current_second] == moved_position)
-		{
-			cherry_moved += 1;
-		}
 		cache_ref = std::max(cache_ref, cherry_moved);
 	}
 
