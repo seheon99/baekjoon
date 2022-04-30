@@ -1,21 +1,34 @@
-#include <string>
 #include <iostream>
-using namespace std;
-int main(){
-    while(1){
-        string s;
-        cin>>s;
-        if(s=="0") break;
-        int N=0;
-        for(int i=0;i<s.size();i++){
-            N+=s.at(i)-'0';
-        }
-        while(N>9){
-            int N2=N;
-            N=0;
-            for(;N2!=0;N2/=10)
-                N+=N2%10;
-        }
-        cout<<N<<"\n";
+#include <string>
+
+static int sum_of_digits(int number)
+{
+    int sum = 0;
+
+    while (number != 0)
+    {
+        sum += number % 10;
+        number /= 10;
     }
+    return sum;
+}
+
+int main(void)
+{
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+
+    std::string number_string;
+    while (std::cin >> number_string)
+    {
+        if (number_string == "0")
+            break;
+        int input_number = 0;
+        for (auto ch : number_string)
+            input_number += ch - '0';
+        while ((input_number = sum_of_digits(input_number)) > 9)
+            ;
+        std::cout << input_number << '\n';
+    }
+    return 0;
 }
