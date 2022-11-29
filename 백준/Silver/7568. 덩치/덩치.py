@@ -5,10 +5,9 @@ for index in range(n):
     bulk.append((weight, height, index, 1))
 
 
-bulk.sort(reverse=True)
 for i in range(n):
-    for j in range(i - 1, -1, -1):
-        if bulk[j][0] > bulk[i][0] and bulk[j][1] > bulk[i][1]:
+    for j in range(n):
+        if bulk[i][0] < bulk[j][0] and bulk[i][1] < bulk[j][1]:
             bulk[i] = (bulk[i][0], bulk[i][1], bulk[i][2], bulk[i][3] + 1)
 
 bulk.sort(key=lambda x: x[2])
