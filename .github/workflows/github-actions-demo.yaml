@@ -2,8 +2,10 @@ name: Update README.md
 run-name: ${{ github.event.workflow_run.head_commit.message }}
 on:
   push:
+    paths:
+      - "백준/**"
 jobs:
-  Refresh_README-md:
+  refresh_badges:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch dashboard
@@ -14,3 +16,9 @@ jobs:
               | sed 's/^/<img width="16px" height="16px" src="https:\/\/static.solved.ac\/tier_small\//' \
               | sed 's/$/.svg" \/>/' \
               >> README.md
+      - name: Update README.md
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git commit -am "Update tier badges"
+          git push
