@@ -2,8 +2,6 @@ name: Update README.md
 run-name: ${{ github.event.workflow_run.head_commit.message }}
 on:
   push:
-    paths:
-      - "백준/**"
 jobs:
   Refresh_README-md:
     runs-on: ubuntu-latest
@@ -11,8 +9,8 @@ jobs:
       - name: Fetch dashboard
         run: |
           echo '[![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=seyu)](https://solved.ac/seyu)' > README.md
-          curl https://solved.ac/api/v3/user/top_100?handle=seyu
-              | jq '.items[] | .level'
-              | sed 's/^/<img width="16px" height="16px" src="https:\/\/static.solved.ac\/tier_small\//'
-              | sed 's/$/.svg" \/>/'
+          curl https://solved.ac/api/v3/user/top_100?handle=seyu \
+              | jq '.items[] | .level' \
+              | sed 's/^/<img width="16px" height="16px" src="https:\/\/static.solved.ac\/tier_small\//' \
+              | sed 's/$/.svg" \/>/' \
               >> README.md
