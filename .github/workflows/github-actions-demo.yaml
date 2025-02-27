@@ -5,7 +5,7 @@ on:
     paths:
       - "백준/**"
 jobs:
-  Refresh README.md:
+  Refresh_README-md:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch dashboard
