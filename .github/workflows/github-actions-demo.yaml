@@ -8,6 +8,7 @@ jobs:
   refresh_badges:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Fetch dashboard
         run: |
           echo '[![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=seyu)](https://solved.ac/seyu)' > README.md
