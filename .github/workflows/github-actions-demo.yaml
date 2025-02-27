@@ -1,18 +1,18 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+name: Update README.md
+run-name: ${{ github.event.workflow_run.head_commit.message }}
+on:
+  push:
+    paths:
+      - "백준/**"
 jobs:
-  Explore-GitHub-Actions:
+  Refresh README.md:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v3
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
+      - name: Fetch dashboard
         run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+          echo '[![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=seyu)](https://solved.ac/seyu)' > README.md
+          curl https://solved.ac/api/v3/user/top_100?handle=seyu
+              | jq '.items[] | .level'
+              | sed 's/^/<img width="16px" height="16px" src="https:\/\/static.solved.ac\/tier_small\//'
+              | sed 's/$/.svg" \/>/'
+              >> README.md
