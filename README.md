@@ -1,5 +1,45 @@
 [![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=seyu)](https://solved.ac/seyu)
-<link rel="stylesheet" href=".assets/README.css">
+<style>
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+  background-color: oklch(0.967 0.001 286.375);
+  border-radius: 4px;
+  padding: 16px;
+  gap: 16px;
+}
+
+.container > div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4px;
+}
+
+@media (width >= 48rem) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 64rem) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width >= 80rem) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (width >= 96rem) {
+  .container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+</style>
 <div class="container">
 <div>
 <img src="https://static.solved.ac/tier_small/18.svg" />
