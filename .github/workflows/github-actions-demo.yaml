@@ -13,7 +13,11 @@ jobs:
         run: |
           echo '[![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=seyu)](https://solved.ac/seyu)' \
               > README.md
-          echo '<link rel="stylesheet" href=".assets/README.css">' \
+          echo '<style>' \
+              >> README.md
+          cat .assets/README.css \
+              >> README.md \
+          echo '</style>' \
               >> README.md
           echo '<div class="container">' \
               >> README.md
