@@ -16,7 +16,7 @@ jobs:
           echo '<style>' \
               >> README.md
           cat .assets/README.css \
-              >> README.md \
+              >> README.md
           echo '</style>' \
               >> README.md
           echo '<div class="container">' \
