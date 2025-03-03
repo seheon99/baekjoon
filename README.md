@@ -24,4 +24,4 @@ $\huge{\rm{\color{#27e2a4}Platinum V}}$까지 **+169** 남음
 |   Gold III   |             +4 |
 |   Gold IV    |             +3 |
 
-[^1]: $ 126 = \lfloor 175 \times (1 - 0.995 ^ {252} ) \rceil $
+[^1]: `126 = round(175 * (1 - 0.995 ** 252))`

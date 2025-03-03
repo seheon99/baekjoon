@@ -98,5 +98,5 @@ for n in range(min(tier + 5, TOP_TIER), tier - 4, -1):
 print()
 
 print(
-    f"[^1]: $ {rating_by_solved_count + 1} = \\lfloor 175 \\times (1 - 0.995 ^ {{{solved_count + count}}} ) \\rceil $"
+    f"[^1]: `{min(rating_by_solved_count + 1, 175)} = round(175 * (1 - 0.995 ** {solved_count + count}))`"
 )
