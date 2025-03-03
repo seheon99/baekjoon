@@ -59,7 +59,7 @@ solved_count = user["solvedCount"]
 print(f"[![solved.ac Profile]({BADGE_URL})]({SOLVED_URL})")
 print()
 print(
-    f"$\\huge{{\\rm{{\\color{{{TIER_COLOR[(tier) // 5]}}}{get_tier_title(tier + 1)}}}}}$까지 **+{TIER_RATING[tier] - rating}** 남음"
+    f"$\\huge{{\\rm{{\\color{{{TIER_COLOR[(tier) // 5]}}}{get_tier_title(tier + 1)}}}}}$까지 **+{TIER_RATING[tier] - rating:,d}** 남음"
 )
 print()
 
@@ -74,12 +74,12 @@ while (
 ):
     count += 1
 
-print(f"| {get_tier_title(tier)} | +{rating}")
+print(f"| {get_tier_title(tier)} | +{rating:,d}")
 print("| --- | --: |")
-print(f"| 상위 100문제의 난이도 합 | **+{rating_by_problems_sum}** |")
-print(f"| CLASS {user['class']} | **+{rating_by_class}** |")
+print(f"| 상위 100문제의 난이도 합 | **+{rating_by_problems_sum:,d}** |")
+print(f"| CLASS {user['class']} | **+{rating_by_class:,d}** |")
 print(
-    f"| 문제수에 따른 보너스 점수 _(다음 점수까지 **{count}**문제[^1])_ | **+{rating_by_solved_count}** |"
+    f"| 문제수에 따른 보너스 점수 _(다음 점수까지 **{count}**문제[^1])_ | **+{rating_by_solved_count:,d}** |"
 )
 
 print()
