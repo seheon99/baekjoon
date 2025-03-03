@@ -72,13 +72,7 @@
 <img src="https://static.solved.ac/tier_small/13.svg" />
 <img src="https://static.solved.ac/tier_small/13.svg" />
 </div><div>
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/12.svg" />
+<img src="https://static.solved.ac/tier_small/13.svg" />
 <img src="https://static.solved.ac/tier_small/12.svg" />
 <img src="https://static.solved.ac/tier_small/12.svg" />
 <img src="https://static.solved.ac/tier_small/12.svg" />
@@ -93,7 +87,13 @@
 <img src="https://static.solved.ac/tier_small/12.svg" />
 <img src="https://static.solved.ac/tier_small/12.svg" />
 <img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
+<img src="https://static.solved.ac/tier_small/12.svg" />
+<img src="https://static.solved.ac/tier_small/12.svg" />
+</div><div>
+<img src="https://static.solved.ac/tier_small/12.svg" />
+<img src="https://static.solved.ac/tier_small/12.svg" />
+<img src="https://static.solved.ac/tier_small/12.svg" />
+<img src="https://static.solved.ac/tier_small/12.svg" />
 <img src="https://static.solved.ac/tier_small/11.svg" />
 </div><div>
 <img src="https://static.solved.ac/tier_small/11.svg" />
@@ -111,13 +111,7 @@
 <img src="https://static.solved.ac/tier_small/11.svg" />
 <img src="https://static.solved.ac/tier_small/11.svg" />
 <img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
+<img src="https://static.solved.ac/tier_small/11.svg" />
 <img src="https://static.solved.ac/tier_small/10.svg" />
 </div><div>
 <img src="https://static.solved.ac/tier_small/10.svg" />
@@ -141,7 +135,13 @@
 <img src="https://static.solved.ac/tier_small/10.svg" />
 <img src="https://static.solved.ac/tier_small/10.svg" />
 <img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
+<img src="https://static.solved.ac/tier_small/10.svg" />
+<img src="https://static.solved.ac/tier_small/10.svg" />
+</div><div>
+<img src="https://static.solved.ac/tier_small/10.svg" />
+<img src="https://static.solved.ac/tier_small/10.svg" />
+<img src="https://static.solved.ac/tier_small/10.svg" />
+<img src="https://static.solved.ac/tier_small/10.svg" />
 <img src="https://static.solved.ac/tier_small/9.svg" />
 </div><div>
 <img src="https://static.solved.ac/tier_small/9.svg" />
