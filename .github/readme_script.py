@@ -59,7 +59,7 @@ solved_count = user["solvedCount"]
 print(f"[![solved.ac Profile]({BADGE_URL})]({SOLVED_URL})")
 print()
 print(
-    f"$\\rm\\bf\\color{{{TIER_COLOR[(tier) // 5]}}}{get_tier_title(tier + 1)}$까지 **+{TIER_RATING[tier] - rating}** 남음"
+    f"$\\huge{{\\rm{{\\color{{{TIER_COLOR[(tier) // 5]}}}{get_tier_title(tier + 1)}}}}}$까지 **+{TIER_RATING[tier] - rating}** 남음"
 )
 print()
 

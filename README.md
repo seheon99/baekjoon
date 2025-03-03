@@ -1,6 +1,6 @@
 [![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=seyu)](https://solved.ac/seyu)
 
-$\rm\bf\color{#27e2a4}Platinum V$까지 **+169** 남음
+$\huge{\rm{\color{#27e2a4}Platinum V}}$까지 **+169** 남음
 
 ## 레이팅 종합
 
