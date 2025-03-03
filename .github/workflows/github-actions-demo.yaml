@@ -9,31 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Fetch dashboard
+      - name: Rebuild README.md
         run: |
-          echo '[![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=seyu)](https://solved.ac/seyu)' \
-              > README.md
-          echo '<style>' \
-              >> README.md
-          cat .assets/README.css \
-              >> README.md
-          echo '</style>' \
-              >> README.md
-          echo '<div class="container">' \
-              >> README.md
-          echo '<div>' \
-              >> README.md
-          curl https://solved.ac/api/v3/user/top_100?handle=seyu \
-              | jq '.items[] | .level' \
-              | sed 's/^/<img src="https:\/\/static.solved.ac\/tier_small\//' \
-              | sed 's/$/.svg" \/>/' \
-              | awk '{print;} NR % 5 == 0 { print "</div><div>"; }' \
-              >> README.md
-          echo '</div>' \
-              >> README.md
-      - name: Update README.md
+          python3 .github/readme_script.py > README.md
+      - name: Commit and Push README.md
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git commit -am "Update tier badges: ${{ github.event.workflow_run.head_commit.message }}"
+          git commit -am "Update README.md"
           git push

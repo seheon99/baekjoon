@@ -1,165 +1,27 @@
 [![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=seyu)](https://solved.ac/seyu)
-<style>
-.container {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
 
-  background-color: oklch(0.967 0.001 286.375);
-  border-radius: 4px;
-  padding: 16px;
-  gap: 16px;
-}
+$\rm\bf\color{#27e2a4}Platinum V$까지 **+169** 남음
 
-.container > div {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 4px;
-}
+## 레이팅 종합
 
-@media (width >= 48rem) {
-  .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+| Gold I                                                    |     +1431 |
+| --------------------------------------------------------- | --------: |
+| 상위 100문제의 난이도 합                                  | **+1156** |
+| CLASS 4                                                   |  **+150** |
+| 문제수에 따른 보너스 점수 _(다음 점수까지 **3**문제[^1])_ |  **+125** |
 
-@media (width >= 64rem) {
-  .container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
+## 난이도 별 얻게 될 점수
 
-@media (width >= 80rem) {
-  .container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+|    Level     | Earning Points |
+| :----------: | -------------: |
+|  Platinum I  |            +11 |
+| Platinum II  |            +10 |
+| Platinum III |             +9 |
+| Platinum IV  |             +8 |
+|  Platinum V  |             +7 |
+|    Gold I    |             +6 |
+|   Gold II    |             +5 |
+|   Gold III   |             +4 |
+|   Gold IV    |             +3 |
 
-@media (width >= 96rem) {
-  .container {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-</style>
-<div class="container">
-<div>
-<img src="https://static.solved.ac/tier_small/18.svg" />
-<img src="https://static.solved.ac/tier_small/17.svg" />
-<img src="https://static.solved.ac/tier_small/16.svg" />
-<img src="https://static.solved.ac/tier_small/16.svg" />
-<img src="https://static.solved.ac/tier_small/16.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/16.svg" />
-<img src="https://static.solved.ac/tier_small/15.svg" />
-<img src="https://static.solved.ac/tier_small/15.svg" />
-<img src="https://static.solved.ac/tier_small/15.svg" />
-<img src="https://static.solved.ac/tier_small/15.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/15.svg" />
-<img src="https://static.solved.ac/tier_small/15.svg" />
-<img src="https://static.solved.ac/tier_small/15.svg" />
-<img src="https://static.solved.ac/tier_small/15.svg" />
-<img src="https://static.solved.ac/tier_small/14.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/14.svg" />
-<img src="https://static.solved.ac/tier_small/14.svg" />
-<img src="https://static.solved.ac/tier_small/14.svg" />
-<img src="https://static.solved.ac/tier_small/14.svg" />
-<img src="https://static.solved.ac/tier_small/14.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/13.svg" />
-<img src="https://static.solved.ac/tier_small/13.svg" />
-<img src="https://static.solved.ac/tier_small/13.svg" />
-<img src="https://static.solved.ac/tier_small/13.svg" />
-<img src="https://static.solved.ac/tier_small/13.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/13.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/12.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/11.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/10.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-</div><div>
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-<img src="https://static.solved.ac/tier_small/9.svg" />
-</div><div>
-</div>
+[^1]: $ 126 = \lfloor 175 \times (1 - 0.995 ^ {252} ) \rceil $
