@@ -1,14 +1,14 @@
 [![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=seyu)](https://solved.ac/seyu)
 
-$\huge{\rm{\color{#27e2a4}Platinum V}}$까지 **+148** 남음
+$\huge{\rm{\color{#27e2a4}Platinum V}}$까지 **+140** 남음
 
 ## 레이팅 종합
 
-| Gold I | +1,452
+| Gold I | +1,460
 | --- | --: |
-| 상위 100문제의 난이도 합 | **+1,176** |
+| 상위 100문제의 난이도 합 | **+1,184** |
 | CLASS 4 | **+150** |
-| 문제수에 따른 보너스 점수 _(다음 점수까지 **4**문제[^1])_ | **+126** |
+| 문제수에 따른 보너스 점수 _(다음 점수까지 **3**문제[^1])_ | **+126** |
 
 ## 난이도 별 얻게 될 점수
 
