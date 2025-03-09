@@ -1,20 +1,12 @@
-name: Update README.md
+name: Refresh README.md
 run-name: ${{ github.event.workflow_run.head_commit.message }}
-on:
-  push:
-    paths:
-      - "백준/**"
+on: [push]
 jobs:
-  refresh_badges:
+  refresh:
     runs-on: ubuntu-latest
+    name: Refresh README.md
     steps:
-      - uses: actions/checkout@v3
-      - name: Rebuild README.md
-        run: |
-          python3 .github/readme_script.py seyu > README.md
-      - name: Commit and Push README.md
-        run: |
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git commit -am "Update README.md"
-          git push
+      - uses: actions/checkout@v4
+      - uses: seheon99/baekjoon-summary@d54b55e2d7a1511aeaf3c7a959b5d8b791ed1fa4
+        with:
+          username: seyu
