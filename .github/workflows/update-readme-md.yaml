@@ -1,6 +1,9 @@
 name: Refresh README.md
 run-name: ${{ github.event.workflow_run.head_commit.message }}
-on: [push]
+on:
+  push:
+    paths:
+      - "백준/**"
 jobs:
   refresh:
     runs-on: ubuntu-latest
