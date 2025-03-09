@@ -6,15 +6,15 @@
 <!-- START AUTO-UPDATE -->
 [![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=seyu)](https://solved.ac/seyu)
 
-$\huge{\rm{\color{#27e2a4}Platinum V}}$까지 **+125** 남음
+$\huge{\rm{\color{#27e2a4}Platinum V}}$까지 **+117** 남음
 
 ## 레이팅 종합
 
-| Gold I | +1,475
+| Gold I | +1,483
 | --- | --: |
-| 상위 100문제의 난이도 합 | **+1,199** |
+| 상위 100문제의 난이도 합 | **+1,206** |
 | CLASS 4 | **+150** |
-| 문제수에 따른 보너스 점수 _(다음 점수까지 **1**문제[^1])_ | **+126** |
+| 문제수에 따른 보너스 점수 _(다음 점수까지 **4**문제[^1])_ | **+127** |
 
 ## 난이도 별 얻게 될 점수
 
@@ -31,5 +31,5 @@ $\huge{\rm{\color{#27e2a4}Platinum V}}$까지 **+125** 남음
 | Gold V | +2 |
 | Silver I | +1 |
 
-[^1]: `127 = round(175 * (1 - 0.995 ** 257))`
+[^1]: `128 = round(175 * (1 - 0.995 ** 261))`
 <!-- END AUTO-UPDATE -->
