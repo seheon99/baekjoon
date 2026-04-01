@@ -1,37 +1,31 @@
-from sys import stdin
+width, height = map(int, input().split())
 
-input = lambda: stdin.readline().rstrip()
+tomatos = []
+for _ in range(height):
+    tomatos.append(list(map(int, input().split())))
 
-n, m = map(int, input().split())
-tomato = []
+queue = []
 
-for k in range(m):
-    tomato.append(list(map(int, input().split())))
+for y in range(height):
+    for x in range(width):
+        if tomatos[y][x] == 1:
+            queue.append((x, y, 0))
 
-from queue import Queue
+dx = [0, 0, 1, -1]
+dy = [1, -1, 0, 0]
+result = 0
+for x, y, count in queue:
+    result = count
+    for i in range(4):
+        xi = x + dx[i]
+        yi = y + dy[i]
+        if yi >= 0 and yi < height and xi >= 0 and xi < width and tomatos[yi][xi] == 0:
+            tomatos[yi][xi] = 1
+            queue.append((xi, yi, count + 1))
 
-work_q = Queue()
-for y in range(m):
-    for x in range(n):
-        if tomato[y][x] == 1:
-            work_q.put((x, y))
+for line in tomatos:
+    if 0 in line:
+        result = -1
+        break
 
-while not work_q.empty():
-    x, y = work_q.get()
-    if x - 1 >= 0 and tomato[y][x - 1] == 0:
-        tomato[y][x - 1] = tomato[y][x] + 1
-        work_q.put((x - 1, y))
-    if x + 1 < n and tomato[y][x + 1] == 0:
-        tomato[y][x + 1] = tomato[y][x] + 1
-        work_q.put((x + 1, y))
-    if y - 1 >= 0 and tomato[y - 1][x] == 0:
-        tomato[y - 1][x] = tomato[y][x] + 1
-        work_q.put((x, y - 1))
-    if y + 1 < m and tomato[y + 1][x] == 0:
-        tomato[y + 1][x] = tomato[y][x] + 1
-        work_q.put((x, y + 1))
-
-if True in map(lambda x: 0 in x, tomato):
-    print(-1)
-else:
-    print(max(map(max, tomato)) - 1)
+print(result)
