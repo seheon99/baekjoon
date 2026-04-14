@@ -10,6 +10,6 @@ jobs:
     name: Refresh README.md
     steps:
       - uses: actions/checkout@v4
-      - uses: seheon99/baekjoon-summary@84d86b3137f6b45e52dcb1d60528ef28bbde411f
+      - uses: seheon99/baekjoon-summary@8411607dcbf3f7c4a207d04251e3a38afc456204
         with:
           username: seyu
