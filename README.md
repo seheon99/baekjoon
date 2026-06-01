@@ -33,3 +33,15 @@ $\huge{\rm{\color{#27e2a4}Platinum V}}$까지 **+110** 남음
 
 [^1]: `110 = round(200 * (1 - 0.997 ** 264))`
 <!-- END AUTO-UPDATE -->
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/seheon99/baekjoon/tree/master/0035-search-insert-position) |
+## Binary Search
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/seheon99/baekjoon/tree/master/0035-search-insert-position) |
+<!---LeetCode Topics End-->
